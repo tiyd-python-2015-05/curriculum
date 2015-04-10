@@ -55,3 +55,9 @@ docs/_build/
 
 # PyBuilder
 target/
+# Created by https://www.gitignore.io
+
+### IPythonNotebook ###
+# Temporary data
+.ipynb_checkpoints/
+
