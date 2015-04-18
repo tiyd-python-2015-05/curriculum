@@ -10,7 +10,7 @@
 
 ## Ada Lovelace
 
-![left](../images/ada_lovelace.jpg)
+![left](images/ada_lovelace.jpg)
 
 1815-1852
 The world's first computer programmer
@@ -20,7 +20,7 @@ Worked with Charles Babbage on the Analytical Engine
 
 ## ENIAC
 
-![right](../images/eniac.jpg)
+![right](images/eniac.jpg)
 
 1946
 First electronic general-purpose computer
@@ -31,7 +31,7 @@ Kathy Kleiman, Jean Bartik, Marlyn Meltzer, Kay Antonelli, Betty Holberton, Fran
 
 ## Grace Hopper
 
-![left](../images/grace_hopper.jpg)
+![left](images/grace_hopper.jpg)
 
 1906–1992
 Created the first compiler
@@ -41,7 +41,7 @@ Popularized the term "bug"
 
 ## LISP
 
-![right](../images/john_mccarthy.jpg)
+![right](images/john_mccarthy.jpg)
 
 1958
 Created by John McCarthy
@@ -51,7 +51,7 @@ Influence on many modern languages, including Python
 
 ## ALGOL
 
-![left](../images/algol.jpg)
+![left](images/algol.jpg)
 
 1958
 Designed by a committee of European and American computer scientists
@@ -61,7 +61,7 @@ Other major influence on modern languages, particularly syntactically
 
 ## Margaret Hamilton
 
-![left](../images/margaret_hamilton.png)
+![left](images/margaret_hamilton.png)
 
 1936-
 Director of software engineering for the Apollo space program
