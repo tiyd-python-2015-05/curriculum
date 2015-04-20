@@ -89,7 +89,6 @@ Use Euclid's algorithm to calculate the greatest common divisor of two numbers.
 * `dict()`
 * More string methods
 * Dictionaries
-* List comprehensions
 * Files
 * `open()`
 
@@ -107,7 +106,6 @@ Count the number of times each letter appears in a word and return it as a dicti
 
 ### Goals
 
-* `dir()`
 * Modules
 * Looking at the standard library
 * Testing
