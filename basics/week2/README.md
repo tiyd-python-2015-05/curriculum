@@ -43,7 +43,8 @@ Design the currency converter project using CRC cards.
 
 ## Day 3
 
-*Question of the day:* ???
+*Question of the day:* How does lazy generation affect memory usage compared to typical
+iteration?
 
 ### Goals
 
@@ -53,7 +54,7 @@ Design the currency converter project using CRC cards.
 
 ### Exercises
 
-???
+[Implement Range Function](Exercise 3 - Implement Range.ipynb)
 
 ### Assignment
 
