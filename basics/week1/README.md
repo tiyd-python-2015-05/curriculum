@@ -51,7 +51,7 @@ Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. 
 
 ### Assignment
 
-[Approximate a square root](assignments/approximate-square-root).
+[Approximate a square root](https://github.com/theironyard/python-assignments/tree/master/basics/approximate-square-root).
 
 ## Day 2
 
@@ -76,7 +76,7 @@ Use Euclid's algorithm to calculate the greatest common divisor of two numbers.
 
 ### Assignment
 
-[Determine if text is a palindrome](assignments/palindrome).
+[Determine if text is a palindrome](https://github.com/theironyard/python-assignments/tree/master/basics/palindrome).
 
 ## Day 3
 
@@ -89,7 +89,6 @@ Use Euclid's algorithm to calculate the greatest common divisor of two numbers.
 * `dict()`
 * More string methods
 * Dictionaries
-* List comprehensions
 * Files
 * `open()`
 
@@ -99,7 +98,7 @@ Count the number of times each letter appears in a word and return it as a dicti
 
 ### Assignment
 
-[Calculate word frequency](assignments/word-frequency).
+[Calculate word frequency](https://github.com/theironyard/python-assignments/tree/master/basics/word-frequency).
 
 ## Day 4
 
@@ -107,7 +106,6 @@ Count the number of times each letter appears in a word and return it as a dicti
 
 ### Goals
 
-* `dir()`
 * Modules
 * Looking at the standard library
 * Testing
@@ -118,4 +116,4 @@ Pig Latin
 
 ### Weekend Lab
 
-[Mystery Word](assignments/mystery-word)
+[Mystery Word](https://github.com/theironyard/python-assignments/tree/master/basics/mystery-word)
