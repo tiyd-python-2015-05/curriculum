@@ -55,7 +55,9 @@ Plot a histogram of these weights. Find the mean and standard deviation of this 
 
 ## Day 3
 
-*Question of the day:*
+*Question of the day:* If you wanted to compare two different strategies for
+playing a game -- let's say the game of Blackjack -- what would be the easiest
+way to do that in code?
 
 ### Goals
 
