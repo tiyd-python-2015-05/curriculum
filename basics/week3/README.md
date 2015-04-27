@@ -76,7 +76,7 @@ will rotate 90-270 degrees.
 
 ### Exercise
 
-No exercise today.
+Take the code written in class and create your own Roomba with different behavior by subclassing Roomba.
 
 ### Assignment
 
