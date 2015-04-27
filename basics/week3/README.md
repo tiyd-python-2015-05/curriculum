@@ -55,7 +55,7 @@ Plot a histogram of these weights. Find the mean and standard deviation of this 
 
 ## Day 3
 
-*Question of the day:* No question today.
+*Question of the day:*
 
 ### Goals
 
@@ -68,7 +68,7 @@ Live code a simulation of Roombas.
 
 * Room to be vacuumed is 15x20 feet.
 * Each turn, the Roomba moves 1 foot (or until it hits a wall). Whatever space
-the Roomba is on is cleaned.
+(1 ft x 1 ft square) the Roomba is on is cleaned.
 * Assume the Roomba can remember only one thing: the number of degrees it last
 rotated.
 * Our default Roomba will move in a straight line until it hits a wall, then
@@ -84,7 +84,9 @@ No exercise today.
 
 ## Day 4
 
-*Question of the day:*
+*Question of the day:* If you have a record of basketball teams' score for their last
+20 games each, what's the simplest model you could make to predict the winner for
+a game between two of those teams?
 
 ### Goals
 
