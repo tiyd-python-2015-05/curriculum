@@ -21,7 +21,7 @@ points are inside or outside the circle.
 
 ### Assignment
 
-[Random art](assignments/random-art)
+[Random art](https://github.com/theironyard/python-assignments/tree/master/basics/random-art)
 
 ## Day 2
 
@@ -50,7 +50,7 @@ Plot a histogram of these weights. Find the mean and standard deviation of this 
 
 ### Assignment
 
-[Plotting randomness in a notebook](assignments/charting)
+[Plotting randomness in a notebook](https://github.com/theironyard/python-assignments/tree/master/basics/charting-coin-flips)
 
 
 ## Day 3
@@ -80,7 +80,7 @@ No exercise today.
 
 ### Assignment
 
-[Some Pig](assignments/some-pig)
+[Some Pig](https://github.com/theironyard/python-assignments/tree/master/basics/some-pig)
 
 ## Day 4
 
@@ -104,4 +104,4 @@ average work load, how many then?
 
 ### Assignment
 
-[Traffic simulation](assignments/traffic-simulation)
+[Traffic simulation](https://github.com/theironyard/python-assignments/tree/master/basics/traffic-simulation)
