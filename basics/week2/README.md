@@ -6,12 +6,14 @@
 
 ### Goals
 
-* Review
-  * List comprehensions
-  * Test-driven development
+* Test-driven development
+* List comprehensions
 * Dictionary comprehensions
 * Set comprehensions
 * Exceptions
+* *args/**kwargs
+* vector/matrix math
+
 
 ### Exercise
 
@@ -19,60 +21,86 @@
 
 ### Assignment
 
-[Currency conversion](https://github.com/theironyard/python-assignments/tree/master/basics/currency-converter)
+[Vectors and matrices](https://github.com/tiyd-python-2015-05/vectors-and-matrices)
 
 ## Day 2
 
-*Question of the day:* If you were creating a card game, how would you keep
-score over time?
+*Question of the day:* ???
 
 ### Goals
 
-* Classes
-* CRC cards
 * OO design
+* Writing your own tests
+* Tool Time!
 
 ### Exercise
 
-Design the currency converter project using CRC cards.
+???
 
-### Assignment
+### Homework
 
-[Blackjack, part 1](assignments/blackjack-1)
-
+Game of Sticks
 
 ## Day 3
 
-*Question of the day:* How does lazy generation affect memory usage compared to typical
-iteration?
+*Question of the day:* ???
 
 ### Goals
 
-* Generators
-* Named tuples
-* Other collections
+* More OO design
+* Writing your own tests
+* Byte arrays ??
 
-### Exercises
+### Exercise
 
-[Implement Range Function](Exercise 3 - Implement Range.ipynb)
+??? Maybe encryption
 
-### Assignment
+### Homework
 
-???
+Revisit vectors and matrices
 
 ## Day 4
 
-*Question of the day:* When creating a blackjack game, how do you determine
-the point value of a hand that has aces in it?
+*Question of the day:* ???
 
 ### Goals
 
-* Continued OO design
+* Even more OO design
+* Probabilities
+* Introduction to recommendation engines
 
-### Exercises
+### Exercise
 
-[Build your own rocket](http://introtopython.org/all_exercises_challenges.html#your-own-rocket-2).
+???
 
-### Assignment
+### Homework
 
-[Blackjack, part 2](assignments/blackjack-2)
+Recommendation engine
+
+---
+
+
+## Topics
+
+- sets
+- named tuples
+
+### Maybe
+
+- decorators
+- generators/laziness
+
+## Examples
+
+- encryption
+- probabilities
+- recommendation engine
+- AI
+- age distribution
+
+
+
+# Recommendation Engine
+
+1. Get users with item recommendations (nested dict: {user: {item: rating, ...}, user: ...})
+   Maybe a matrix with users as columns and items as rows (or vice versa?)
