@@ -1,6 +1,8 @@
 from pig import Die, Player, Turn, Game
 import random
 
+rng = random.Random()
+
 
 def test_die_rolling():
     die = Die()
@@ -38,7 +40,7 @@ def test_player_has_initial_score_of_zero():
 def test_game_winner():
     p1 = Player()
     p2 = Player()
-    game = Game(p1, p2)
+    game = Game(rng, p1, p2)
     p1.score = 90
     p2.score = 101
     assert game.winner() == p2
@@ -47,7 +49,7 @@ def test_game_winner():
 def test_current_player():
     p1 = Player()
     p2 = Player()
-    game = Game(p1, p2)
+    game = Game(rng, p1, p2)
 
     assert game.current_player == p1
 
@@ -70,18 +72,11 @@ def test_turn_ends_on_a_roll_of_one():
 
 
 class TestPlayer(Player):
-    def __init__(self):
-        super().__init__()
-        self._go_again = False
-
     def go_again(self):
-        return self._go_again
+        return False
 
 
 class StopAtThreePlayer(Player):
-    def __init__(self):
-        super().__init__()
-
     def go_again(self):
         return len(self.rolls) < 3
 
@@ -107,11 +102,16 @@ def test_turn_tells_player_roll():
     assert player.rolls == [4]
 
 
+class NonRandom:
+    def randint(*args):
+        return 2
+
 def test_game_goes_until_there_is_a_winner():
     random.seed()
     p1 = StopAtThreePlayer()
     p2 = TestPlayer()
-    game = Game(p1, p2)
+
+    game = Game(NonRandom(), p1, p2)
 
     game.start()
-    assert game.winner() is not None
+    assert game.winner() is p1

@@ -7,7 +7,8 @@ class Game:
     # Add turn score to player's score
     # Should stop when a player reaches 100
 
-    def __init__(self, player1, player2):
+    def __init__(self, random, player1, player2):
+        self.random = random
         self.player1 = player1
         self.player2 = player2
         self.current_player = self.player1
@@ -109,5 +110,6 @@ class Die:
 if __name__ == '__main__':
     p1 = HumanPlayer("Cool Person")
     p2 = ComputerPlayer("Ultron")
-    game = Game(p1, p2)
+    rng = random.Random()
+    game = Game(rng, p1, p2)
     game.start()
