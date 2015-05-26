@@ -2,51 +2,44 @@
 
 ## Day 1
 
-*Question of the day:*
-
 ### Goals
+
+* Use Pandas to read and analyze data
+* Summarize data with graphs
+* Identify dirty data and select ways to clean it
 
 ### Exercise
 
 ### Assignment
 
-Calculations on one month of consumer complaint data from the CFPB using the built-in CSV library.
+Calculations on one month of consumer complaint data from the CFPB using Pandas.
 
 
 ## Day 2
 
-*Question of the day:*
-
 ### Goals
+
+* Read regular expressions
+* Write simple regular expressions
+* Combine regular expressions with Pandas
 
 ### Exercise
 
 ### Assignment
-
-Data analysis with Pandas
 
 
 ## Day 3
 
-*Question of the day:*
-
 ### Goals
+
+* Combine multiple files with Pandas
+* Identify interesting questions in data
 
 ### Exercise
 
 ### Assignment
 
-Cleaning dirty data
+American Time Use Analysis
 
 
-## Day 4
 
-*Question of the day:*
-
-### Goals
-
-### Exercise
-
-### Assignment
-
-[American Time Use Analysis](assignments/atus-analysis)
