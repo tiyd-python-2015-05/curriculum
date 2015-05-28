@@ -61,3 +61,5 @@ target/
 # Temporary data
 .ipynb_checkpoints/
 
+WDI_csv
+country_data
